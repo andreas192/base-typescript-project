@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "module": "commonjs",
+        "strict": true,
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "forceConsistentCasingInFileNames": true,
+        "outDir": "dist",
+        "sourceMap": true,
+        "noImplicitAny": true
+    },
+    "include": ["src/**/*.ts"], // Add the path to your input files here
+    "files": ["src/main.ts"] // Add the input files here
+}
